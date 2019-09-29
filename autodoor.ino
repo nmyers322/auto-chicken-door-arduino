@@ -78,6 +78,7 @@ void openDoor() {
   stepper.step(doorLength * doorDirection);
   analogWrite(pwmA, 0);
   analogWrite(pwmB, 0);
+  doorOpened = 1;
 }
 
 void closeDoor() {
@@ -87,6 +88,7 @@ void closeDoor() {
   stepper.step(doorLength * doorDirection * -1);
   analogWrite(pwmA, 0);
   analogWrite(pwmB, 0);
+  doorOpened = 0;
 }
 
 void loop()
