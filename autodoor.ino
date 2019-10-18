@@ -2,21 +2,13 @@
   Auto chicken door opener
   author: Nathanial Myers
   email: nmyers322@gmail.com
-
   You will need to adjust the following values:
-
   - dayTime: The value at which the light sensor reading will trigger the door to open
-
   - nightTime: The value at which the light sensor reading will trigger the door to close
-
   - loopTime: The number of seconds between each light sensor reading
-
   - motorSpeed: How fast the motor will spin to open the door. Should be between 40 and 100
-
   - motorStrength: How much power the motor will spin with. If it sounds really loud, turn this down. Must be between 0 and 255
-
   - doorLength: The duration to spin the motor until the door completely opens or closes
-
   - doorDirection: if the door opens when it's supposed to close and vice versa, change the direction to 1
 */
 
@@ -25,12 +17,12 @@
 
 
 // Adjust values here
-const int dayTime = 28;
-const int nightTime = 24;
+const int dayTime = 21M;
+const int nightTime = 18;
 const int loopTime = 5;
-const int motorSpeed = 60;
+const int motorSpeed = 35;
 const int motorStrength = 180;
-const int doorLength = 1220;
+const int doorLength = 2200;
 const int doorDirection = -1;
 
 // Define number of steps per revolution:
