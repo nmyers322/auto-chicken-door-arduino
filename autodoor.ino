@@ -17,8 +17,8 @@
 
 
 // Adjust values here
-const int dayTime = 21M;
-const int nightTime = 18;
+const int dayTime = 22;
+const int nightTime = 19;
 const int loopTime = 5;
 const int motorSpeed = 35;
 const int motorStrength = 180;
